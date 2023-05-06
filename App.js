@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>{isAuthenticated ? "Here's some sensitive info!" : "Uh oh! Access Denied"}</Text>
+      <Text>{isAuthenticated ? "Access Granted!" : "Uh oh! Access Denied"}</Text>
       <StatusBar style="auto" />
     </View>
   );
